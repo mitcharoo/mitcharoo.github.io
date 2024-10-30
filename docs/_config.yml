@@ -7,12 +7,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mitcharoo.com"
 
-remote_theme: b2a3e8/jekyll-theme-console
+remote_theme: mitcharoo/jekyll-theme-console
 plugins:
   - jekyll-feed
 
 style: dark
-footer: 'follow on <a href="https://bsky.app/profile/mitcharoo.com">bluesky</a>'
+footer: 'follow on:<br><a href="https://bsky.app/profile/mitcharoo.com">bluesky</a><br><a href="https://github.com/mitcharoo">github</a>'
 header_pages:
   - index.md
   - about.md
