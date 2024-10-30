@@ -1,41 +1,16 @@
-title: mitcharoo.com
-domain: mitcharoo.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mitcharoo.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  mitcharoo
+title: "mitcharoo.com"
+description: ""
+baseurl: "mitcharoo.com"
+url: "https://mitcharoo.com"
 
-# Build settings
-remote_theme: b2a3e8/jekyll-theme-console
-plugins:
-  - jekyll-feed
-
-# Style
-style: dark
-footer: 'follow on <a href="https://bsky.app/profile/mitcharoo.com">bluesky</a>'
 header_pages:
   - index.md
   - about.md
- 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+style: dark
+
+footer: 'follow on <a href="https://bsky.app/profile/mitcharoo.com">bluesky</a>'
+
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console
