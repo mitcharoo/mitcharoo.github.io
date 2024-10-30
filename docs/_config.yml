@@ -2,6 +2,7 @@ title: "mitcharoo.com"
 description: ""
 baseurl: "mitcharoo.com"
 url: "https://mitcharoo.com"
+remote_theme: b2a3e8/jekyll-theme-console
 
 header_pages:
   - index.md
@@ -10,7 +11,3 @@ header_pages:
 style: dark
 
 footer: 'follow on <a href="https://bsky.app/profile/mitcharoo.com">bluesky</a>'
-
-# Build settings
-markdown: kramdown
-remote_theme: b2a3e8/jekyll-theme-console
